@@ -30,7 +30,6 @@ class BookClass {
     }
     book.id = id;
     bookss.push(book);
-    //console.log(bookss);
     localStorage.setItem('bookss', JSON.stringify(bookss));
   }
 
