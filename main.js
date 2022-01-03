@@ -2,7 +2,7 @@ const bookList = document.querySelector('.books');
 const form = document.getElementById('newBook');
 const titleInput = document.getElementById('title');
 const authorInput = document.getElementById('author');
-const addNewBook = document.querySelector('.new-book');
+// const addNewBook = document.querySelector('.new-book');
 // bookCode();
 let bookss = [];
 
@@ -30,7 +30,7 @@ class BookClass {
     }
     book.id = id;
     bookss.push(book);
-    console.log(bookss);
+    //console.log(bookss);
     localStorage.setItem('bookss', JSON.stringify(bookss));
   }
 
