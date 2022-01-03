@@ -3,7 +3,7 @@ const form = document.getElementById('newBook');
 const titleInput = document.getElementById('title');
 const authorInput = document.getElementById('author');
 const addNewBook = document.querySelector('.new-book');
-bookCode();
+// bookCode();
 let bookss = [];
 
 class BookClass {
@@ -30,6 +30,7 @@ class BookClass {
     }
     book.id = id;
     bookss.push(book);
+    console.log(bookss);
     localStorage.setItem('bookss', JSON.stringify(bookss));
   }
 
