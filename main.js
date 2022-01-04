@@ -99,13 +99,15 @@ form.addEventListener('submit', (e) => {
 });
 
 const displayTime = () => {
-  const currentDate = luxon.DateTime.fromJSDate(new Date());
-  const date = currentDate.toLocaleString(luxon.DateTime.DATETIME_MED_WITH_SECONDS);
+  const date = new Date();
+  // document.getElementById("demo").innerHTML = d;
+  // const currentDate = luxon.DateTime.fromJSDate(new Date());
+  // const date = currentDate.toLocaleString(luxon.DateTime.DATETIME_MED_WITH_SECONDS);
   document.querySelector('.time').innerHTML = date;
 };
 
 document.addEventListener('DOMContentLoaded', () => {
-  luxon.Settings.defaultLocale = 'en';
+  // luxon.Settings.defaultLocale = 'en';
   displayTime();
   setInterval(() => {
     displayTime();

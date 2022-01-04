@@ -13,6 +13,8 @@ h1 {
   font-size: 30px;
   font-weight: bold;
   text-align: center;
+  margin: 0;
+  padding: 5px;
 }
 
 .new-book {
@@ -59,12 +61,7 @@ nav {
   display: flex;
   justify-content: space-between;
   border: 2px solid gray;
-  margin: 0px 10px;
-}
-
-h1 {
-  margin: 0px;
-  padding: 5px;
+  margin: 0 10px;
 }
 
 h1 a {
