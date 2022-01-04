@@ -2,10 +2,8 @@ const bookList = document.querySelector('.books');
 const form = document.getElementById('newBook');
 const titleInput = document.getElementById('title');
 const authorInput = document.getElementById('author');
-// const addNewBook = document.querySelector('.new-book');
-// bookCode();
-let bookss = [];
 
+let bookss = [];
 class BookClass {
   constructor(title, author, id) {
     this.title = title;
@@ -15,11 +13,9 @@ class BookClass {
 
   bookCode() {
     return `<li><div class="list-items">
-    <p>"${this.title}"</p>
-    <p>by</p>
-    <p>${this.author}</p>
-    </div>
+    <p>"${this.title}" by ${this.author}</p>
     <button type="button" data-id='${this.id}' class="remove">remove</button>
+    </div>
   </li>`;
   }
 

@@ -2,3 +2,54 @@ body {
   margin: 0;
   top: 0;
 }
+
+.container {
+  border: 1px solid gray;
+  background-color: aliceblue;
+  margin: auto 50px;
+}
+
+h1 {
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.new-book {
+  margin: auto 50px;
+  justify-content: center;
+  display: flex;
+}
+
+.btn {
+  margin-left: 110px;
+  margin-top: 10px;
+  background-color: green;
+  color: #fff;
+  width: 60px;
+  border: none;
+}
+
+input {
+  margin-top: 10px;
+}
+
+.list-items {
+  display: flex;
+  justify-content: space-between;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.remove {
+  width: 78px;
+  color: #fff;
+  background-color: red;
+  border: none;
+  margin-right: 29px;
+  margin-top: 14px;
+  padding: 3px;
+  height: 22px;
+}
