@@ -2,3 +2,51 @@ body {
   margin: 0;
   top: 0;
 }
+
+.container {
+  border: 1px solid gray;
+  background-color: aliceblue;
+  margin: auto 50px;
+}
+
+h1 {
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+}
+
+
+.new-book {
+  margin: auto 50px;
+}
+
+.btn {
+  margin-left: 116px;
+  margin-top: 10px;
+  background-color: green;
+  color: #fff;
+  width: 60px;
+  border: none;
+}
+
+input {
+  margin-top: 10px;
+}
+
+.list-items {
+  display: flex;
+  justify-content: space-between;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.remove {
+  width: 50px;
+  color: #fff;
+  background-color: red;
+  border: none;
+}
+
+
