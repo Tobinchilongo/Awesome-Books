@@ -53,3 +53,25 @@ ul {
   padding: 3px;
   height: 22px;
 }
+
+nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+h1 a {
+text-decoration: none;
+color: black;
+font-size: 30px;
+}
+
+.nav-items {
+display: flex;
+padding: 20px;
+margin: 10px;
+}
+
+.nav-items li {
+padding: 20px;
+border-right: black;
+}
