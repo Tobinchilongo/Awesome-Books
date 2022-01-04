@@ -13,7 +13,7 @@ class BookClass {
 
   bookCode() {
     return `<li><div class="list-items">
-    <p>"${this.title} by ${this.author}"</p>
+    <p>"${this.title}" by ${this.author}</p>
     <button type="button" data-id='${this.id}' class="remove">remove</button>
     </div>
   </li>`;
