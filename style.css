@@ -22,8 +22,8 @@ h1 {
 }
 
 .btn {
-  margin-left: 110px;
-  margin-top: 10px;
+  margin-left: 185px;
+  margin-top: -8px;
   background-color: green;
   color: #fff;
   width: 60px;
@@ -126,5 +126,13 @@ footer {
   bottom: 0;
   position: fixed;
   width: 97.7%;
+}
+
+form {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin: 5px 300px;
+
 }
 
