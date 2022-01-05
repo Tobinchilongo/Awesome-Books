@@ -2,7 +2,7 @@
 
 # Awesome Books
 
-> Building a Capstone-project to review the things learned so as to show an understanding of all things learned.
+> Building Awesome-Books-project to review the things learned so as to show an understanding of all things learned.
 
 
 
