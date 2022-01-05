@@ -137,3 +137,7 @@ form {
   flex-direction: column;
   align-items: flex-end;
 }
+
+.display {
+  display: none;
+}
